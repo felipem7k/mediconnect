@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    padding: 0 20px;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+
+    img {
+        width: 57px;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-weight: var(--fonts-w-regular);
+        color: var(--fonts-sec);
+        font-size: 14px;
+    }
+}

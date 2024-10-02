@@ -1,0 +1,101 @@
+.queries {
+    padding: 0 20px;
+
+    h2 {
+        padding: 30px 0 10px 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        li {
+            border-radius: 8px;
+            background-color: var(--bg-sec);
+            display: flex;
+            flex-direction: column;
+
+            .queries__up {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 15px;
+                border-bottom: 1px solid #ebebeb;
+
+                .queries__up-profile-img {
+                    width: 32px;
+                    border-radius: 50%;
+                }
+
+                .queries__up-desciption {
+                    flex-grow: 2;
+                    padding: 0 20px;
+
+                    .queries__up-description-down {
+                        margin-top: 5px;
+                        display: flex;
+                        gap: 5px;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        p {
+                            color: var(--fonts-sec);
+                            font-weight: var(--fonts-w-regular);
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .queries__up-chat-icon {
+                    background-color: var(--icons-bg);
+                    padding: 10px;
+                    clip-path: circle(50% at 50% 50%);
+                }
+            }
+
+            .queries__down {
+                padding: 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 10px;
+
+                h3 {
+                    font-size: 12px;
+                    font-weight: var(--fonts-w-medium);
+                }
+
+                .queries__down-options {
+                    display: flex;
+                    justify-content: space-between;
+
+                    a {
+                        text-decoration: none;
+                        font-size: 14px;
+                        font-weight: var(--fonts-w-medium);
+                        padding: 13px 16px;
+                        border-radius: 8px;
+                    }
+
+                    .video-call {
+                        color: var(--bg-sec);
+                        background-color: var(--buttons-prim);
+                    }
+
+                    .audio-call {
+                        color: var(--fonts-prim);
+                        border: 1px solid #ECECEC;
+                    }
+
+                    .adress {
+                        color: var(--bg-sec);
+                        background-color: var(--buttons-sec);
+                        padding: 13px 0;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
