@@ -13,7 +13,8 @@
         justify-content: space-around;
 
         li {
-            width: 328px;
+            min-width: 328px;
+            max-width: 500px;
             border-radius: 8px;
             background-color: var(--bg-sec);
             display: flex;
@@ -45,7 +46,7 @@
                         p {
                             color: var(--fonts-sec);
                             font-weight: var(--fonts-w-regular);
-                            font-size: 12px;
+                            font-size: 0.75em;
                         }
                     }
                 }
@@ -64,7 +65,7 @@
                 gap: 10px;
 
                 h3 {
-                    font-size: 12px;
+                    font-size: 0.75em;
                     font-weight: var(--fonts-w-medium);
                 }
 
@@ -74,7 +75,7 @@
 
                     a {
                         text-decoration: none;
-                        font-size: 14px;
+                        font-size: 0.875em;
                         font-weight: var(--fonts-w-medium);
                         padding: 13px 16px;
                         border-radius: 8px;

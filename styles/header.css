@@ -12,12 +12,12 @@ header {
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 1.375em;
     }
 
     p {
         font-weight: var(--fonts-w-regular);
         color: var(--fonts-sec);
-        font-size: 14px;
+        font-size: 0.875em;
     }
 }

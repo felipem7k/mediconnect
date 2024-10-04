@@ -22,10 +22,26 @@
     --fonts-w-bold: 700;
 }
 
+html {
+    font-size: 100%;
+}
+
 body {
     font-family: var(--prim-font);
     font-weight: var(--fonts-w-bold);
     color: var(--fonts-prim);
 
     background: var(--bg-prim);
+}
+
+@media screen and (width >= 768px) {
+    html {
+        font-size: 130%;
+    }
+}
+
+@media screen and (width >= 1440px) {
+    html {
+        font-size: 120%;
+    }
 }

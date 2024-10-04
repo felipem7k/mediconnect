@@ -20,7 +20,7 @@ footer {
             h2 {
                 color: var(--fonts-prim);
                 font-weight: var(--fonts-w-regular);
-                font-size: 12px;
+                font-size: 0.75em;
             }
         }
 
