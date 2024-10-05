@@ -7,7 +7,7 @@ header {
     gap: 16px;
 
     img {
-        width: 57px;
+        width: 3.5em;
         border-radius: 50%;
     }
 
@@ -19,5 +19,11 @@ header {
         font-weight: var(--fonts-w-regular);
         color: var(--fonts-sec);
         font-size: 0.875em;
+    }
+}
+
+@media screen and (width >= 1440px) {
+    header {
+        margin-left: 190px;
     }
 }

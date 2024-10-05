@@ -28,7 +28,7 @@
                 border-bottom: 1px solid #ebebeb;
 
                 .queries__up-profile-img {
-                    width: 32px;
+                    width: 2em;
                     border-radius: 50%;
                 }
 
@@ -114,6 +114,8 @@
 
 @media screen and (width >= 1440px) {
     .queries {
+        margin-left: 190px;
+
         ul {
             grid-template-columns: auto auto auto;
 
