@@ -1,0 +1,85 @@
+.register {
+    padding: 60px 20px;
+
+    form {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            min-width: 200px;
+            max-width: 300px;
+            flex-grow: 1;
+            justify-content: center;
+
+            label {
+                font-size: .85em;
+                color: var(--fonts-ter);
+                font-weight: var(--fonts-w-regular);
+            }
+
+            input, 
+            select,
+            textarea {
+                font-size: .65em;
+                padding: .85em;
+                border-radius: 8px;
+                border: none;
+                width: 100%;
+                box-sizing: border-box;
+                font-family: var(--prim-font);
+            }
+
+            input:focus, select:focus, textarea:focus {
+                outline: none;
+                border: 1px solid var(--buttons-ter);
+            }
+
+            input, input::placeholder {
+                font-weight: var(--fonts-w-regular);
+                color: var(--fonts-prim);
+            }
+
+            input::placeholder {
+                color: var(--fonts-quar);
+            }
+
+            input:hover::placeholder {
+                color: var(--fonts-quin);
+            }
+
+            textarea {
+                resize: none;
+            }
+        }
+
+        button {
+            border: none;
+            background-color: var(--buttons-ter);
+            padding: .85em;
+            font-size: .85em;
+            border-radius: 8px;
+            font-weight: var(--fonts-w-bold);
+            color: var(--bg-sec);
+            height: 20%;
+            flex-grow: 1;
+            max-width: 400px;
+            align-self: flex-end;
+        }
+
+        button:hover {
+            background-color: var(--buttons-sec);
+        }
+    } 
+}
+
+@media screen and (width >= 1440px) {
+    .register {
+        margin-left: 190px;
+    }
+}

@@ -241,6 +241,36 @@
             </li>
         </ul>
     </section>
+    <section class="register">
+        <h2>Cadastrar consulta</h2>
+        <form action="#">
+            <div>
+                <label for="name">Nome do paciente</label>
+                <input type="text" name="name" placeholder="Ex.: Pedro Henrique" required>
+            </div>
+            <div>
+                <label for="ctype">Tipo de consulta</label>
+                <select name="ctype" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option value="remote">Remota</option>
+                    <option value="face-to-face">Presencial</option>
+                </select>
+            </div>
+            <div>
+                <label for="date">Data da consulta</label>
+                <input type="date" name="date" required>
+            </div>
+            <div>
+                <label for="time">Horário da consulta</label>
+                <input type="time" name="time" required>
+            </div>
+            <div>
+                <label for="obs">Observações</label>
+                <textarea name="obs" rows="4" ></textarea>
+            </div>
+            <button>Salvar consulta</button>	
+        </form>
+    </section>
     <footer>
         <nav>
             <a class="active" href="#">
